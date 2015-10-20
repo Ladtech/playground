@@ -1,0 +1,18 @@
+source 'https://rubygems.org'
+gem 'haml'
+gem 'sinatra'
+
+group :development do
+  gem 'rake'
+  gem 'rspec', require: %w(rspec rspec/core/rake_task)
+  gem 'shotgun'
+  gem 'cucumber', require: 'cucumber/rake/task'
+  gem 'page_magic', '1.0.0.alpha3'
+  gem 'watir-webdriver'
+  gem 'rack-test', require: 'rack/test'
+  gem 'childprocess'
+  gem 'wait'
+  gem 'thin'
+
+
+end
